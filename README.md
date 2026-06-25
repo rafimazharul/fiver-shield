@@ -1,41 +1,24 @@
 # FiverShield – Next.js
 
-Converted from vanilla HTML/React CDN to a full Next.js 14 project with Tailwind CSS.
+Protect your Fiverr messages from policy violations with FiverShield – a modern web application built with Next.js.
 
-## Getting Started
+## Tech Stack
 
-### 1. Install dependencies
-```bash
-npm install
-```
+- **Next.js 14** – React framework with App Router
+- **React 18** – UI library
+- **Tailwind CSS** – Utility-first CSS framework
+- **React Toastify** – Notifications
+- **PostCSS** – CSS processing
 
-### 2. Add your icon images
-Copy your `icon_images/` folder into the `public/` directory:
-```
-public/
-  icon_images/
-    favicon.png
-    fs_Icon.svg
-    alert.png
-    message.png
-    highlight.png
-    make-safe.png
-    copy.png
-    re-edit.png
-```
+## Features
 
-### 3. Run the development server
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### 4. Build for production
-```bash
-npm run build
-npm start
-```
+- 🔒 **Risky Word Detection**: Detects and replaces risky words/phrases
+- 🎨 **Dark/Light Mode**: Toggle between themes
+- ✨ **Highlight Words**: Option to highlight risky words
+- 📋 **Rich Text Copy**: Copy formatted text (preserves colors)
+- 📝 **Line Breaks for Labels**: Auto line breaks after Buyer/Seller labels
+- 📊 **Word/Character Count**: Counts for input and output
+- 🔄 **Re-edit**: Paste safe message back for editing
 
 ## Project Structure
 
@@ -48,19 +31,42 @@ fivershield/
 ├── components/
 │   └── FiverShieldTool.jsx  # Main app component (all logic)
 ├── public/
-│   └── icon_images/       # ← Place your icons here
+│   └── icon_images/       # Static assets/icons
 ├── next.config.js
 ├── tailwind.config.js
 ├── postcss.config.js
+├── jsconfig.json
 └── package.json
 ```
 
-## What Changed
+## Installation
 
-| Before | After |
-|---|---|
-| Single `index.html` with CDN scripts | Next.js 14 App Router project |
-| `React.createElement()` calls | JSX syntax |
-| Tailwind via CDN `<script>` | Tailwind via PostCSS (proper build) |
-| `document.documentElement` dark mode | Same – works in `'use client'` component |
-| Icons via relative path `icon_images/` | Icons served from `public/icon_images/` |
+### 1. Install dependencies
+```bash
+npm install
+```
+
+## Running the Project
+
+### Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Production Build
+```bash
+npm run build
+npm start
+```
+
+## Usage
+
+1. Write or paste your Fiverr message in the input field
+2. Toggle "Highlight words" (optional)
+3. Click **Make Safe** to process the message
+4. Click **Copy Text** to copy the safe message
+5. Click **Re-edit** to send safe message back to input for further edits
+
+## License
+MIT
