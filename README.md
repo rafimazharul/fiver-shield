@@ -72,4 +72,4 @@ npm start
 MIT
 
 ## Live Link
-open[https://bdt-alpha.mvp.bd/](https://bdt-alpha.mvp.bd/)
+Please check this out=> [https://bdt-alpha.mvp.bd/](https://bdt-alpha.mvp.bd/)
