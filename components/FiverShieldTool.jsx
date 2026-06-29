@@ -48,10 +48,10 @@ function insertHyphen(word) {
 
 function applyLabels(str) {
   let res = str;
-  res = res.replace(/buyer\s*:/gi, '<b style="color: red; font-size: 18pt;">Buyer:</b><br />');
-  res = res.replace(/seller\s*:/gi, '<b style="color: blue; font-size: 18pt;">Seller:</b><br />');
-  res = res.replace(/requirements\s*:/gi, '<b style="color: #FF00FF; font-size: 18pt;">Requirements:</b><br />');
-  res = res.replace(/custom\s*offer\s*:/gi, '<b style="color: #FF00FF; font-size: 18pt;">Custom Offer:</b><br />');
+  res = res.replace(/buyer\s*:/gi, '<b style="color: red; font-size: 30pt;">Buyer:</b><br />');
+  res = res.replace(/seller\s*:/gi, '<b style="color: blue; font-size: 30pt;">Seller:</b><br />');
+  res = res.replace(/requirements\s*:/gi, '<b style="color: #FF00FF; font-size: 30pt;">Requirements:</b><br />');
+  res = res.replace(/custom\s*offer\s*:/gi, '<b style="color: #FF00FF; font-size: 30pt;">Custom Offer:</b><br />'); 
   return res;
 }
 
