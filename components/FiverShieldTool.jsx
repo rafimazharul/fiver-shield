@@ -246,7 +246,7 @@ export default function FiverShieldTool() {
         {/* Header */}
         <div className="text-center mb-6">
           <div className="flex items-center justify-center gap-3 mb-2">
-            <CustomIcon src="/public/icon_images/fsicon.png" alt="Logo" className="w-10 h-10 object-contain" />
+            <CustomIcon src="../public/icon_images/fsIcon.png" alt="Logo" className="w-10 h-10 object-contain" />
             <h1 className="text-4xl font-bold text-slate-800 dark:text-white">FiverShield</h1>
           </div>
           <p className="text-slate-600 dark:text-slate-400 text-lg">
