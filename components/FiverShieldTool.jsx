@@ -391,16 +391,16 @@ export default function FiverShieldTool() {
 
         {/* Footer */}
         <footer className="text-center mt-8 text-slate-600 dark:text-slate-400 text-sm">
-          {'© '}
+        
+          {'Built with 💙 by '}
           <a
-            href="https://rafisportfolio.netlify.app"
-            className="hover:text-blue-600 dark:hover:text-sky-400 transition-colors duration-300 ease-in-out font-medium"
+            href="https://mazharul.bro.bd"
+            className="transition-colors duration-300 ease-in-out font-medium text-blue-600 dark:text-sky-400 drop-shadow-[0_0_0.4rem_rgba(14,165,233,0.8)] hover:text-blue-700 dark:hover:text-sky-300 hover:drop-shadow-none"
             target="_blank"
             rel="noopener noreferrer"
           >
             Rafi
           </a>
-          {' || BDT Alpha'}
         </footer>
       </div>
     </div>
