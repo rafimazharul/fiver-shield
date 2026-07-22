@@ -246,7 +246,7 @@ export default function FiverShieldTool() {
         {/* Header */}
         <div className="text-center mb-6">
           <div className="flex items-center justify-center gap-3 mb-2">
-            <CustomIcon src="fsicon.png" alt="Logo" className="w-10 h-10 object-contain" />
+            <Image src="/icon_images/fsicon.png" alt="Logo" width={40} height={40} className="object-contain" />
             <h1 className="text-4xl font-bold text-slate-800 dark:text-white">FiverShield</h1>
           </div>
           <p className="text-slate-600 dark:text-slate-400 text-lg">
@@ -332,7 +332,7 @@ export default function FiverShieldTool() {
                     outputHTML ||
                     `<span class="text-slate-400 italic">${
                       darkMode
-                        ? 'আপনার নিরাপদ বার্তা এখানে প্রদর্শিত হবে...'
+                        ? 'Your safe message will appear here...'
                         : 'Your safe message will appear here...'
                     }</span>`,
                 }}
