@@ -242,7 +242,7 @@ export default function FiverShieldTool() {
             {darkMode ? '💡' : '🌃'}
           </button>
         </div>
-
+  
         {/* Header */}
         <div className="text-center mb-6">
           <div className="flex items-center justify-center gap-3 mb-2">
